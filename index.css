@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#eef2f7;
+    padding:40px;
+}
+
+.cv-container{
+    max-width:1100px;
+    margin:auto;
+    display:flex;
+    background:#ffffff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
+}
+
+.sidebar{
+    width:35%;
+    background:#1f3b73;
+    color:white;
+    padding:35px;
+}
+
+.profile{
+    width:170px;
+    height:170px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid white;
+    display:block;
+    margin:auto;
+}
+
+.sidebar h1{
+    text-align:center;
+    margin-top:20px;
+    font-size:32px;
+}
+
+.profession{
+    text-align:center;
+    margin-top:8px;
+    color:#d4dcec;
+    margin-bottom:30px;
+}
+
+.section{
+    margin-bottom:35px;
+}
+
+.section h2{
+    font-size:20px;
+    margin-bottom:15px;
+    padding-bottom:8px;
+    border-bottom:2px solid rgba(255,255,255,.4);
+}
+
+.item{
+    margin-bottom:15px;
+}
+
+.item h3{
+    font-size:15px;
+    margin-bottom:5px;
+}
+
+.item p{
+    color:#d8d8d8;
+    font-size:14px;
+}
+
+.skill-list{
+    list-style:none;
+}
+
+.skill-list li{
+    background:rgba(255,255,255,.12);
+    margin-bottom:10px;
+    padding:10px;
+    border-radius:6px;
+}
+
+.content{
+    width:65%;
+    padding:40px;
+}
+
+.content section{
+    margin-bottom:40px;
+}
+
+.content h2{
+    color:#1f3b73;
+    margin-bottom:18px;
+    border-left:5px solid #1f3b73;
+    padding-left:12px;
+}
+
+.content p{
+    line-height:1.8;
+    color:#444;
+}
+
+.card{
+    background:#f5f7fb;
+    padding:20px;
+    border-left:5px solid #1f3b73;
+    border-radius:8px;
+    margin-bottom:18px;
+}
+
+.card h3{
+    color:#1f3b73;
+    margin-bottom:5px;
+}
+
+.card span{
+    color:#777;
+    font-size:14px;
+}
+
+.card p{
+    margin-top:10px;
+}
+
+@media(max-width:900px){
+
+body{
+    padding:15px;
+}
+
+.cv-container{
+    flex-direction:column;
+}
+
+.sidebar{
+    width:100%;
+}
+
+.content{
+    width:100%;
+}
+
+.profile{
+    width:140px;
+    height:140px;
+}
+
+}
